@@ -1,0 +1,82 @@
+﻿body {
+    background-color: antiquewhite;
+    cursor: auto
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+ nav ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 65px;
+        background-color: black;
+        color: white;
+    }
+    nav ul li {
+        padding: 0 12px;
+        
+    }
+
+#brand {
+    width: 45px;
+    padding: 0 8px;
+    align-items: center;
+    font-weight: bolder;
+}
+.container {
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background: url('images/night.jpg') center no-repeat;
+    background-size: cover;
+    box-shadow: 0 15px 25px rgba(0,0,0,6);
+}
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+.songName {
+    padding-bottom:10px;
+    font-family:'Times New Roman', Times, serif;
+}
+#PreviousButton 
+{
+    width: 45px;
+    border-radius:90px;
+    
+}
+#PlayButton {
+    width: 48px;
+    border-radius: 90px;
+    padding-left:5px;
+    padding-right:5px;
+}
+#NextButton {
+    width: 40px;
+    border-radius: 90px;
+}
+   
